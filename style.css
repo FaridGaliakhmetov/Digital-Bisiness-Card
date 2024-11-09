@@ -69,21 +69,40 @@ img{
 }
 @media(max-width: 768px) {
     .main-container{
-        height: 390px;
+        height: 500px;
       }  
     .myText{
-        padding: 10px 5px 10px 5px;
-      }
-    .myText{
+      padding: 10px 5px 10px 5px;
       font-size: 16px;
     }
     .lp{
         width: 230px;
-      }  
+      } 
+      .email{
+        padding-top: 10px;
+      } 
 }
 @media (max-width: 480px) {
-    
+  .mbody{
+    flex-direction: column;  
+  }
+  .myText{
+    border-radius: 15px 15px 0 0;
+    font-size: 13px;
+    padding: 5px;
+  }
+  .lp{
+    width: 190px;
+  }
+  img{
+    border-radius: 0 0 15px 15px;
+  }
 }
 @media (max-width: 360px) {
-    
+  h1{
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .lp{
+    width: 160px;
+  }
 }
